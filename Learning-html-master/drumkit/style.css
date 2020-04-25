@@ -8,23 +8,18 @@ body{
 
 }
 
-.box {
-    border: 0.150rem outset black;
+  
+  /*for animation effect  */
+  .box{
+    border: 0.150rem outset white;
     background-color:transparent;
     
     margin-top: 16rem;
     margin-left: 5rem;
     height:70px;
     width:70px;
-
-  }
-  
- 
-  
-  
-  .box{
-    border: 0 solid;
     box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    color:white;
     outline: 1px solid;
     outline-color: rgba(255, 255, 255, .5);
     outline-offset: 0px;
@@ -38,4 +33,4 @@ body{
     outline-color: rgba(255, 255, 255, 0);
     outline-offset: 15px;
     text-shadow: 1px 1px 2px #427388; 
-  }
+  } 
